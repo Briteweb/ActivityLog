@@ -186,7 +186,7 @@ class Activity extends Eloquent {
 	/**
 	 * Filter out activities that are not public.
 	 *
-	 * @return QueryBuilder
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
 	public function scopeOnlyPublic($query)
 	{
@@ -196,7 +196,7 @@ class Activity extends Eloquent {
 	/**
 	 * Filter out activities that are public.
 	 *
-	 * @return QueryBuilder
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
 	public function scopeOnlyPrivate($query)
 	{
@@ -206,7 +206,7 @@ class Activity extends Eloquent {
 	/**
 	 * Filter out activities that were not carried out by the developer.
 	 *
-	 * @return QueryBuilder
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
 	public function scopeOnlyDeveloper($query)
 	{
@@ -216,7 +216,7 @@ class Activity extends Eloquent {
 	/**
 	 * Filter out activities that were carried out by the developer.
 	 *
-	 * @return QueryBuilder
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
 	public function scopeOnlyUser($query)
 	{

@@ -1,6 +1,6 @@
 {
-	"name": "regulus/activity-log",
-	"description": "A clean and simple Laravel 5 activity logger for monitoring user activity on a website or web application.",
+	"name": "briteweb/activity-log",
+	"description": "Forked from regulus/activity-log for Laravel 6 support.",
 	"license": "MIT",
 	"authors": [
 		{
@@ -9,9 +9,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4.0",
-		"laravel/framework": ">=5.2.0",
-
+		"php": ">=7.3.0",
+		"laravel/framework": ">=6.0.0",
 		"regulus/tetra-text": "0.6.*"
 	},
 	"autoload": {
